@@ -22,9 +22,9 @@ body div {
 .sidebar {
   position: fixed;
   right: 16px;
-  top: 40px;
+  top: 30px;
   padding: 4px;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px);
   border-radius: 12px;
   box-shadow: -2px 2px 16px 3px #777;
   background-color: #fcfcfc;
