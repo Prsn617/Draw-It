@@ -1,0 +1,85 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+body {
+  display: flex;
+}
+
+body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+}
+
+.sidebar {
+  position: fixed;
+  right: 16px;
+  top: 40px;
+  padding: 4px;
+  height: calc(100vh - 80px);
+  border-radius: 12px;
+  box-shadow: -2px 2px 16px 3px #777;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.sidebar span {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.sidebar button {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.sidebar span button {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.colors {
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #777;
+  border-radius: 12px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#brushSlider {
+  margin-bottom: -12px;
+}
+
+.picker {
+  display: flex;
+  align-items: center;
+}
+
+.click {
+  padding: 0.5em 1em;
+  background-color: white;
+  border-radius: 8px;
+  transition: all 250ms ease-in-out;
+}
+.click:hover {
+  background-color: #eee;
+  transition: all 250ms ease-in-out;
+}
+
+a {
+  cursor: pointer;
+}
